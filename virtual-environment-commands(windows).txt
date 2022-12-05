@@ -1,0 +1,15 @@
+### create virtual environment ###
+
+	python -m venv env
+
+
+
+### activate virtual environment ###
+
+	env\Scripts\activate.bat
+
+
+
+### deactivate virtual environment ###
+
+	deactivate
