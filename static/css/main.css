@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     font-family: sans-serif;
-    background-color: lightblue;
+    background-color: rgba(9, 176, 242, 0.308);
 }
 
 .content {
@@ -10,7 +10,7 @@ body, html {
 }
 
 table, td, th {
-    border: 1px solid #aaa;
+    border: 2px solid rgba(15, 83, 228, 0.527);
 }
 
 table {
@@ -30,6 +30,16 @@ td {
 .form {
     margin-top: 20px;
 }
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #1785de;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 80px;
+    cursor: pointer;
+  }
 
 #content {
     width: 70%;
