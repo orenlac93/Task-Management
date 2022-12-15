@@ -29,6 +29,7 @@ td {
 
 .form {
     margin-top: 20px;
+    width: 150%;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
@@ -37,7 +38,7 @@ input[type=button], input[type=submit], input[type=reset] {
     color: white;
     padding: 16px 32px;
     text-decoration: none;
-    margin: 20px 80px;
+    margin: 20px 140px;
     cursor: pointer;
   }
 

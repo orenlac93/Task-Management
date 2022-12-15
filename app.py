@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///localDB.db'
 db = SQLAlchemy(app)
 
 class Todo(db.Model):
@@ -67,8 +67,11 @@ def update(id):
 if __name__ == "__main__":
 
     # initialize the database
+    """
     with app.app_context():
         db.create_all()
+        
+    """    
     
     app.run(debug=True)
 
