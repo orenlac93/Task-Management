@@ -1,10 +1,8 @@
 # Task-Management
 
+
 <br />
 <br />
-
-## Render Cloud Web Service Hosting
-
 <br />
 
 <img width="960" alt="main-page" src="https://user-images.githubusercontent.com/57047863/209197147-1e55d9b5-5427-4e85-bfcf-21ef14fb9394.png">
@@ -12,6 +10,55 @@
 <br />
 <br />
 <br />
+
+## Development setup
+
+1. Clone The Project
+
+```bash
+git clone https://github.com/orenlac93/Task-Management.git 
+```
+
+2. Get To The Project Location
+
+```bash
+cd Task-Management
+```
+
+3. Install The Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+<br />
+<br />
+<br />
+
+
+## Docker
+
+1. Pull The Image
+
+```bash
+docker pull orenlac93/task-management 
+```
+
+2. Run 
+
+```bash
+docker run -d -p 5000:5000 orenlac93/task-management
+```
+
+<br />
+<br />
+<br />
+
+
+## Render Cloud Web Service Hosting
+
+<br />
+
 
 <img width="959" alt="render-hosting" src="https://user-images.githubusercontent.com/57047863/209197225-587a0afc-a5a9-453b-87e4-e58fb1700c9f.png">
 
