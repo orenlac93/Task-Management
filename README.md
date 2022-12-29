@@ -40,6 +40,15 @@ cd Task-Management
 pip install -r requirements.txt
 ```
 
+4. Run The App
+
+```bash
+python app.py
+```
+
+
+5. Connect To The Localhost: [http://127.0.0.1:5000 ](http://127.0.0.1:5000)
+
 <br />
 <br />
 <br />
@@ -58,6 +67,8 @@ docker pull orenlac93/task-management
 ```bash
 docker run -d -p 5000:5000 orenlac93/task-management
 ```
+
+3. Connect To The Localhost: [http://127.0.0.1:5000 ](http://127.0.0.1:5000)
 
 <br />
 <br />
